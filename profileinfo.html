@@ -7,7 +7,7 @@
     <body>
 	<h1> Please Enter Your Information</h1>
 	<ul>
-        <form name="information" method ="POST" onsubmit="return validatefields()">
+        <form name="information" onsubmit="return validatefields()">
         	<h5>
    				Items with a * must be filled out
    			</h5>
@@ -71,8 +71,7 @@
 			*Zip Code: <input type="text" name="zip" id="Zipcode" value="" maxlength=5 /><br>
 			*Phone Number: <input type="numbers" name="phone" id="phonenumber" value="" maxlength=10/><br>
 			*Email: <input type="text" name="email" id="email" value=""/><br>
-			<input style="text-transform: uppercase" type="submit" 
-            name="submit" onclick="return validatefields()" value="Submit"><br>
+			<input style="text-transform: uppercase" type="submit" value="Submit"><br>
 		</form>
     </ul>
     	<script type="text/javascript"></script>   
