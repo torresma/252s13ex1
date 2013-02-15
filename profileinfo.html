@@ -7,10 +7,10 @@
     <body>
 	<h1> Please Enter Your Information</h1>
 	<ul>
-        <form name="contact" method ="POST" onsubmit="return validate()">
+        <form name="information" method ="POST" onsubmit="return validatefields()">
         	<h5>
-   				*Must be filled out*
-   				`</h5>
+   				Items with a * must be filled out
+   			</h5>
 			*Address 1: <input type="text" name="address1" id="address1" value=""/><br>
 			Address 2: <input type="text" name="address2" id="address2" value=""/><br>
 	        *City: <input type="text" name="city" id="city" value=""/><br>
@@ -69,11 +69,12 @@
 					<option value="WY">Wyoming</option>
 				</select><br>
 			*Zip Code: <input type="text" name="zip" id="Zipcode" value="" maxlength=5 /><br>
-			*Phone Number: <input type="numbers" name="phone" id="phone number" value=""/><br>
+			*Phone Number: <input type="numbers" name="phone" id="phonenumber" value="" maxlength=10/><br>
 			*Email: <input type="text" name="email" id="email" value=""/><br>
 			<input style="text-transform: uppercase" type="submit" 
-            name="submit" value="Submit"><br>
+            name="submit" onclick="return validatefields()" value="Submit"><br>
 		</form>
     </ul>
-    	<script type="text/javascript" src="profileinfo.js"></script>   
+    	<script type="text/javascript"></script>   
+    	<link type: "text/javascript" rel="profileinfo" href="profileinfo.js"/>
 </html>
