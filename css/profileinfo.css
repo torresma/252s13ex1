@@ -1,0 +1,24 @@
+form{
+	length: 200px; width: 200px
+	vertical-align: center;
+	text-align: center;
+}
+h1{
+	text-align: center; text-decoration: bold; color: red;
+}
+html{
+	background-color: orange;
+	text-decoration: bold;
+}
+ul{
+	vertical-align: center;
+	list-style-position: center;
+	text-align: center;
+}
+div{
+	vertical-align: center; text-align: center;
+}
+input{
+	vertical-align: center;
+	text-align: center;
+}
